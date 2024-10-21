@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SKOOB Kiwi</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+   <header class="cabeçalho">
+         <div class="container">
+           <input type="checkbox" id="menu" class="container__botao">
+           <label for="menu">
+            <span class="cabeçalho__menu-hamburguer  container__imagem">
+           </label>
+            <ul class="lista-menu">
+             <li class="lista-menu__titulo">CATEGORIAS</li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Romance</a> 
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Clássicos</a>
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Ficção</a> 
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Biografias</a> 
+              </li>
+              <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infanto-juvenil</a> 
+              </li>
+            </ul>
+           <img src="img/logo.png" class="container__imagem">
+         </div>
+         <div class="container">
+           <a href="#"><img src="img/Favoritos.svg" alt="meus favoritos" class="container__imagem"></a>
+           <a href="#"><img src="img/Compras.svg" alt="carinho de compras" class="container__imagem"></a>
+           <a href="#"><img src="img/Usuário.svg" alt="meu perfil" class="container__imagem"></a>
+         </div>
+   </header>
+
+   <section class="banner">
+      <h2 class="banner__titulo">Um novo mundo a cada página</h2>
+      <p class="banner__texto">A leitura que transforma histórias em experiencias!!</p>
+      <input type="search" class="banner__pesquisa" placeholder="Qual sua proxima leitura?">
+   </section>
+
+   <section class="carrossel">
+     <h2 class="carrossel__titulo">Famosinhos</h2>
+     <!-- Slider main container -->
+     <div class="swiper">
+     <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+
+     <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide"><img src="img/amoregelato.jpg" alt="Livro Amor e Gelato" width="126" height="205" ></div>
+     <div class="swiper-slide"><img src="img/amorespanha.jpg" alt="Livro uma farsa de amor na espanha" width="126" height="205" ></div>
+     <div class="swiper-slide"><img src="img/assimqacaba.jpg" alt="Livro é assim que acaba" width="126" height="205" ></div>
+     <div class="swiper-slide"><img src="img/laddykillers.webp" alt="Livro Laddy killers"  width="126" height="205" ></div>
+     <div class="swiper-slide"><img src="img/vermelhoesangue.jpg" alt="Livro vermelho branco e sangue azul" width="126" height="205" ></div>
+     <div class="swiper-slide"><img src="img/orgulho.jpg" alt="Livro orgulho e preconceito" width="126" height="205" ></div>
+     ...
+
+     </div>
+    
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Intriseca</h2>
+            <p class="descrição__texto">
+              Uma das 5 maiores editoras do mundo!!
+            </p>
+          </div>
+          <img src="img/intrisica.png"  width="150" height="100"class ="descrição__imagem" />
+        </div>
+        <div class="card__botões">
+          <ul class="botões">
+            <li class="botões__item">
+              <img src="img/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botões__item">
+              <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+            </li>
+          </ul>
+          <a href="#" class="botões__editora">Saiba mais</a>
+        </div>
+      </div>
+
+      <h2 class="carrossel__titulo_2">Autores Nacionais</h2>
+     <!-- Slider main container -->
+     <div class="swiper">
+     <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+
+     <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide"><img src="img/amorobvio.jpg" width="110" height="185" ></div>
+     <div class="swiper-slide"><img src="img/conectadas.jpg"width="110" height="185" ></div>
+     <div class="swiper-slide"><img src="img/jantar.jpg" width="110" height="185" ></div>
+     <div class="swiper-slide"><img src="img/pedelaranja.jpg" width="110" height="185" ></div>
+     <div class="swiper-slide"><img src="img/tortoarado.jpg" width="110" height="185" ></div>
+     ...
+
+     </div>
+
+     <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas-1.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autora Especial</h3>
+          <h2 class="descrição__titulo-livro"> Clarice Lispector</h2>
+          <p class="descrição__texto">Uma linguagem poética e comovente que só Clarice Lispector pode produzir.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/AUTORACL.webp" width="150" height="100" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__editora">Saiba mais</a>
+      </div>
+     </div>
+    </section>
+
+    <section class="tópicos">
+      <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+       <ul class="tópicos__lista">
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Leitura dinâmica</a>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Bookstan</a>
+           </li>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Mais livros</a>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Imaginação</a>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Foco</a>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">Kindle</a>
+           </li>
+           <li class="tópicos__item">
+                 <a href="#" class="tópicos__link">:/</a>
+           </li>
+       </ul>
+    </section>
+
+    <section class="contato">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <input class="contato__email" type="email" placeholder="Cadastre seu e-mail" />
+    </section>
+
+    <hr />
+    <footer class="rodape">
+    <h2 class="rodape__titulo">Grupo Alura</h2>
+    </footer>
+    
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });
+    </script>
+
+
+
+  </body>
+
+
+</html>
